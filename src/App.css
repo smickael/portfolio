@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-primary: rgba(0, 0, 0, 100%);
+
+  --color-secondary: rgba(255, 255, 255, 100%);
+
+  --color-tertiary-500: #e3e3e3;
+  --color-tertiary-400: #b5b5b5;
+  --color-tertiary: #f2f2f2;
+
+  --color-maron: #979797;
+  --color-red: #ff5e5e;
+  --color-green: #a6d61d;
+  --color-green-600: #0aad4b;
+
+  --color-gray: rgb(242, 242, 242);
+  /* #F2F2F2 */
+  --color-gray-200: rgb(151, 151, 151);
+  /* #979797 */
+  --color-gray-100: rgb(227, 227, 227);
+  /* #E3E3E3 */
+  --color-gray-300: rgb(87, 87, 87);
+  /* #575757 */
+
+  --color-gray-400: #b5b5b5;
+  /* #F2F2F2 */
+  --color-gray-400: #363636;
+  --color-gray-700: #787878;
+
+  --color-black-100: rgb(21, 21, 21);
+  /* #151515 */
+  --color-black-200: rgb(29, 29, 29);
+  /* #1D1D1D */
+
+  --color-react: #61DAFB;
+  --color-vue: #41B882;
+  --color-html: #E34F26;
+  --color-css: #2777BC;
+  --color-node: #8CC84B;
+  --color-typescript: #3178C6;
+  --color-graphql: #E535AB;
+  --color-api: #49A32B;
+  --color-mysql: #1A6188;
+  --color-javascript: #DAB92E;
+  --color-mongodb: #41A03A;
+  --color-storybook: #FB4685;
+  --color-tailwind: #2FB6D5;
+  --color-nextjs: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "cdBold";
+  src: url("./fonts/ClashDisplay-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "cdSemiBold";
+  src: url("./fonts/ClashDisplay-Semibold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@font-face {
+  font-family: "cdMedium";
+  src: url("./fonts/ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cdRegular";
+  src: url("./fonts/ClashDisplay-Regular.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cdLight";
+  src: url("./fonts/ClashDisplay-Light.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cdExtraLight";
+  src: url("./fonts/ClashDisplay-Extralight.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pink__gradient {
+  background: rgba(166, 74, 181, 0.74);
+  filter: blur(375px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tutti__gradient {
+  background: linear-gradient(315.2deg, rgba(38, 208, 206, 0.5) 50.06%, rgba(189, 120, 243, 0.5) 75.59%);
+  filter: blur(325px);
+  border-radius: 200px;
+  transform: rotate(-67.37deg);
 }
