@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="flex gap-x-2 items-center">
         <div className="group w-10">
           <div className="group-hover:hidden flex">
-            <img src="/malt.png" width={20} height={20} alt="malt" />
+            <img src="malt.png" width={20} height={20} alt="malt" />
           </div>
           <p className="group-hover:flex hidden font-cdMedium italic text-base">
             malt

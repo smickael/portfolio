@@ -48,7 +48,7 @@ export const Hero = () => {
       <div className="w-fit relative p-4">
         {/* <Image src="/hero.svg" width={1730} height={1300} /> */}
         <img
-          src="/hero3.svg"
+          src="hero3.svg"
           className="w-[100%] h-[100%] relative z-[5]"
           alt="hero"
         />
