@@ -9,78 +9,91 @@ const webSkillsList = [
     img: "react_icon.png",
     initials: "R",
     bgColor: "bg-react",
+    description: "UI JavaScript library",
   },
   {
     name: "Vue",
     img: "vuejs_icon.png",
     initials: "V",
     bgColor: "bg-vue",
+    description: "UI JavaScript library",
   },
   {
     name: "Node",
     img: "nodejs_icon.png",
     initials: "N",
     bgColor: "bg-node",
+    description: "Server environment",
   },
   {
     name: "TypeScript",
     img: "typescript_icon.png",
     initials: "T",
     bgColor: "bg-typescript",
+    description: "Typed JavaScript library",
   },
   {
     name: "REST API",
     img: "api_icon.png",
     initials: "R",
     bgColor: "bg-api",
+    description: "Architectural web system",
   },
   {
     name: "GraphQL",
     img: "graphql_icon.png",
     initials: "G",
     bgColor: "bg-graphql",
+    description: "API language",
   },
   {
     name: "MongoDB",
     img: "mongodb_icon.png",
     initials: "M",
     bgColor: "bg-mongodb",
+    description: "NoSQL database",
   },
   {
     name: "MySQL",
     img: "mysql_icon.png",
     initials: "N",
     bgColor: "bg-mysql",
+    description: "Database system",
   },
   {
     name: "Storybook",
     img: "storybook_icon.png",
     initials: "S",
     bgColor: "bg-storybook",
+    description: "UI workshop",
   },
   {
     name: "Next.JS",
     img: "nextjs_icon.png",
     initials: "N",
     bgColor: "bg-white",
+    description: "React JS framework",
   },
   {
     name: "HTML",
     img: "html_icon.png",
     initials: "H",
     bgColor: "bg-html",
+    description: "Standard web language",
   },
   {
     name: "Javascript",
     img: "javascript_icon.png",
     initials: "J",
     bgColor: "bg-javascript",
+    description: "Scripting language",
   },
   {
     name: "CSS",
     img: "css_icon.png",
     initials: "C",
     bgColor: "bg-css",
+    description: "Standard styling language",
   },
 ];
 
@@ -90,6 +103,7 @@ const mobileSkillsList = [
     img: "react_icon.png",
     initials: "R",
     bgColor: "bg-react",
+    description: "Multi-OS development",
   },
 ];
 
@@ -154,7 +168,7 @@ export const Skills = () => {
                 {skill.name}
               </strong>
               <span class="text-slate-500 text-sm font-medium dark:text-slate-400">
-                Technical advisor
+                {skill?.description}
               </span>
             </div>
             <img class="absolute -right-12 w-24 shadow-lg" src={skill.img} />
@@ -205,7 +219,7 @@ export const Skills = () => {
                 {skill.name}
               </strong>
               <span class="text-slate-500 text-sm font-medium dark:text-slate-400">
-                Technical advisor
+                {skill?.description}
               </span>
             </div>
             <img class="absolute -right-12 w-24 shadow-lg" src={skill.img} />
