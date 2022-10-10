@@ -23,7 +23,7 @@ export const Description = () => {
             </figure>
           </div>
         </div>
-        <div className="mt-8 ml-4 lg:mt-0 md:w-1/2 w-full">
+        <div className="mt-8 ml-4 mr-4 lg:mt-0 md:w-1/2 w-full">
           <div className="prose prose-indigo mx-auto mt-5 text-gray-50 lg:col-start-1 lg:row-start-1 lg:max-w-none">
             <div>
               <h2 className="text-lg font-semibold text-indigo-600">
