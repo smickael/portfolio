@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 :root {
   --color-primary: rgba(0, 0, 0, 100%);
@@ -31,13 +31,29 @@
   /* #F2F2F2 */
   --color-gray-400: #363636;
   --color-gray-700: #787878;
+  --color-gray-1000: #070B12;
 
   --color-black-100: rgb(21, 21, 21);
   /* #151515 */
   --color-black-200: rgb(29, 29, 29);
   /* #1D1D1D */
 
-  --color-react: #61DAFB;
+  --color-react-opacity: #61DAFB33;
+  --color-vue-opacity: #41B88233;
+  --color-html-opacity: #E34F2633;
+  --color-css-opacity: #2777BC33;
+  --color-node-opacity: #8CC84B33;
+  --color-typescript-opacity: #3178C633;
+  --color-graphql-opacity: #E535AB33;
+  --color-api-opacity: #49A32B33;
+  --color-mysql-opacity: #1A618833;
+  --color-javascript-opacity: #DAB92E33;
+  --color-mongodb-opacity: #41A03A33;
+  --color-storybook-opacity: #FB468533;
+  --color-tailwind-opacity: #2FB6D533;
+  --color-nextjs-opacity: #ffffff33;
+
+  --color-react: #49a4bd;
   --color-vue: #41B882;
   --color-html: #E34F26;
   --color-css: #2777BC;
@@ -95,14 +111,28 @@
   font-style: normal;
 }
 
+
 body {
-  font-family: 'Figtree', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: white;
 }
 
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 .pink__gradient {
-  background: rgba(166, 74, 181, 0.74);
-  filter: blur(375px);
+  background: rgba(234, 98, 255, 0.74);
+  filter: blur(200px);
 }
 
 .tutti__gradient {
@@ -110,4 +140,25 @@ body {
   filter: blur(325px);
   border-radius: 200px;
   transform: rotate(-67.37deg);
+}
+
+.darkblue__gradient {
+  background: linear-gradient(315.2deg, rgba(255, 0, 0, 0.511) 50.06%, rgba(0, 204, 255, 0.54) 75.59%);
+  filter: blur(325px);
+  border-radius: 200px;
+  transform: rotate(-67.37deg);
+}
+
+.nonBlurred_darkblue__gradient {
+  background: linear-gradient(315.2deg, rgba(255, 0, 0, 0.511) 50.06%, rgba(0, 204, 255, 0.54) 75.59%);
+  /* filter: blur(325px); */
+  border-radius: 200px;
+  transform: rotate(-67.37deg);
+}
+
+.nonBlurred_tutti__gradient {
+  background: linear-gradient(315.2deg,rgba(38, 208, 206, 0.5) 50.06%, rgba(189, 120, 243, 0.5) 75.59%);
+  /* filter: blur(325px); */
+  border-radius: 1000px;
+  transform: rotate(67.37deg);
 }

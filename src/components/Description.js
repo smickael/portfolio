@@ -29,11 +29,11 @@ export const Description = () => {
               <h2 className="text-lg font-semibold text-indigo-600">
                 Let me introduce myself
               </h2>
-              <h3 className="mt-2 text-3xl font-cdSemiBold leading-8 tracking-tight text-slate-300 sm:text-4xl mb-4">
+              <h3 className="mt-2 text-3xl font-cdSemiBold leading-8 tracking-tight text-slate-300 sm:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-500">
                 I'm Mickael
               </h3>
             </div>
-            <p>
+            <p className="font-medium">
               Passionate about IT and web development in particular from an
               early age, I immediately knew in what way I was going to be able
               to mix pleasure and professionalism.
