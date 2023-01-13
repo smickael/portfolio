@@ -61,6 +61,7 @@ module.exports = {
         mongodb: "var(--color-mongodb)",
         storybook: "var(--color-storybook)",
         tailwind: "var(--color-tailwind)",
+        bootstrap: "var(--color-bootstrap)",
 
         react_opacity: "var(--color-react-opacity)",
         vue_opacity: "var(--color-vue-opacity)",
@@ -75,6 +76,7 @@ module.exports = {
         mongodb_opacity: "var(--color-mongodb-opacity)",
         storybook_opacity: "var(--color-storybook-opacity)",
         tailwind_opacity: "var(--color-tailwind-opacity)",
+        bootstrap_opacity: "var(--color-bootstrap-opacity)",
       },
       fontFamily: {
         cdMedium: ["cdMedium"],

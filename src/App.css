@@ -52,6 +52,7 @@
   --color-storybook-opacity: #FB468533;
   --color-tailwind-opacity: #2FB6D533;
   --color-nextjs-opacity: #ffffff33;
+  --color-bootstrap-opacity: #6B1CEC33;
 
   --color-react: #49a4bd;
   --color-vue: #41B882;
@@ -67,6 +68,7 @@
   --color-storybook: #FB4685;
   --color-tailwind: #2FB6D5;
   --color-nextjs: #ffffff;
+  --color-bootstrap: #6B1CEC;
 }
 
 @font-face {

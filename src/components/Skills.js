@@ -62,11 +62,25 @@ const webSkillsList = [
     description: "Database system",
   },
   {
+    name: "TailwindCSS",
+    img: "tailwind_icon.png",
+    initials: "T",
+    bgColor: "bg-tailwind_opacity",
+    description: "UI Javascript library",
+  },
+  {
     name: "Storybook",
     img: "storybook_icon.png",
     initials: "S",
     bgColor: "bg-storybook_opacity",
     description: "UI workshop",
+  },
+  {
+    name: "Bootstrap",
+    img: "bootstrap_icon.png",
+    initials: "B",
+    bgColor: "bg-bootstrap_opacity",
+    description: "HTML, CSS & JS library",
   },
   {
     name: "Next.JS",
