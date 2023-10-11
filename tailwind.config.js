@@ -1,52 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
-  ],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       backgroundImage: {
-        'noise': "url('/public/noise.svg')",
+        noise: "url('/noise.svg')",
       },
       colors: {
-        primary: {
-          DEFAULT: "var(--color-primary)",
-        },
-        secondary: {
-          DEFAULT: "var(--color-secondary)",
-        },
-        tertiary: {
-          400: "var(--color-tertiary-400)",
-          500: "var(--color-tertiary-500)",
-          DEFAULT: "var(--color-tertiary)",
-        },
         neutral: {
-          DEFAULT: "#F2F2F2",
-        },
-        gray: {
-          DEFAULT: "var(--color-gray)",
-          100: "var(--color-gray-100)",
-          150: "#b5b5b5",
-          200: "var(--color-gray-200)",
-          300: "var(--color-gray-300)",
-          400: "var(--color-gray-400)",
-          700: "var(--color-gray-700)",
-          1000: "var(--color-gray-1000)",
-        },
-        maron: {
-          DEFAULT: "var(--color-maron)",
-        },
-        red: {
-          DEFAULT: "var(--color-red)",
-        },
-        green: {
-          DEFAULT: "var(--color-green)",
-          600: "var(--color-green-600)",
-        },
-        dark: {
-          100: "var(--color-black-100)",
-          200: "var(--color-black-200)",
+          750: "var(--neutral-750)",
         },
         react: "var(--color-react)",
         vue: "var(--color-vue)",
@@ -61,7 +23,6 @@ module.exports = {
         mongodb: "var(--color-mongodb)",
         storybook: "var(--color-storybook)",
         tailwind: "var(--color-tailwind)",
-        bootstrap: "var(--color-bootstrap)",
 
         react_opacity: "var(--color-react-opacity)",
         vue_opacity: "var(--color-vue-opacity)",
@@ -76,23 +37,6 @@ module.exports = {
         mongodb_opacity: "var(--color-mongodb-opacity)",
         storybook_opacity: "var(--color-storybook-opacity)",
         tailwind_opacity: "var(--color-tailwind-opacity)",
-        bootstrap_opacity: "var(--color-bootstrap-opacity)",
-      },
-      fontFamily: {
-        cdMedium: ["cdMedium"],
-        cdRegular: ["cdRegular"],
-        cdLight: ["cdLight"],
-        cdSemiBold: ["cdSemiBold"],
-        cdBold: ["cdBold"],
-        cdExtraLight: ["cdExtraLight"],
-        epiloque: ['"Epilogue"'],
-      },
-      screens: {
-        xs_sm: "450px",
-        sm_md: "768px",
-        md_lg: "1250px",
-        xl_2xl: "1300px",
-        limit: "1700px",
       },
     },
   },
