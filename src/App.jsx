@@ -28,16 +28,12 @@ function App() {
     >
       <div className="magic" ref={magicRef}></div>
       <div className="max-w-7xl mx-auto">
-        {/* Header WIP */}
         <Header />
-        {/* Hero Section WIP */}
         <HeroSection />
         <Introduction />
         <Missions />
         <Skills />
-        {/* Showcase */}
         <Showcase />
-        {/* Contact */}
         <Contact />
         <Footer />
       </div>
