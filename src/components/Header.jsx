@@ -14,7 +14,7 @@ export const Header = () => {
             rel="noreferrer"
           >
             <div className="group-hover:hidden flex">
-              <img src="malt.png" width={16} height={16} alt="malt" />
+              <img src="./malt.png" width={16} height={16} alt="malt" />
             </div>
             <p className="group-hover:flex hidden">malt</p>
           </a>
