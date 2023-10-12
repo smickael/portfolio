@@ -3,7 +3,7 @@ export const Header = () => {
     <div className="sticky top-0 justify-center z-20 bg-gray-0 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
       <header className="mx-auto flex items-start justify-between max-w-7xl p-4 xl:items-center border-b border-slate-700">
         <div className="flex items-center gap-x-3">
-          <img src="/logo_icon.svg" className="w-8 h-8" />
+          <img src="./logo_icon.svg" className="w-8 h-8" />
           <span className="text-lg font-medium">mickael k.</span>
         </div>
         <div className="flex gap-x-4 font-medium items-center">

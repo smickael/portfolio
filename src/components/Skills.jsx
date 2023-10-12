@@ -4,77 +4,77 @@ import { clsx } from "clsx";
 const webSkillsList = [
   {
     name: "React",
-    img: "/react_icon.png",
+    img: "./react_icon.png",
     initials: "R",
     bgColor: "bg-react_opacity",
     description: "UI JavaScript library",
   },
   {
     name: "TypeScript",
-    img: "/typescript_icon.png",
+    img: "./typescript_icon.png",
     initials: "T",
     bgColor: "bg-typescript_opacity",
     description: "Typed JavaScript library",
   },
   {
     name: "REST API",
-    img: "/api_icon.png",
+    img: "./api_icon.png",
     initials: "R",
     bgColor: "bg-api_opacity",
     description: "Architectural web system",
   },
   {
     name: "GraphQL",
-    img: "/graphql_icon.png",
+    img: "./graphql_icon.png",
     initials: "G",
     bgColor: "bg-graphql_opacity",
     description: "API language",
   },
   {
     name: "MySQL",
-    img: "/mysql_icon.png",
+    img: "./mysql_icon.png",
     initials: "N",
     bgColor: "bg-mysql_opacity",
     description: "Database system",
   },
   {
     name: "Storybook",
-    img: "/storybook_icon.png",
+    img: "./storybook_icon.png",
     initials: "S",
     bgColor: "bg-storybook_opacity",
     description: "UI workshop",
   },
   {
     name: "Next.JS",
-    img: "/nextjs_icon.png",
+    img: "./nextjs_icon.png",
     initials: "N",
     bgColor: "bg-slate-600/50",
     description: "React JS framework",
   },
   {
     name: "HTML",
-    img: "/html_icon.png",
+    img: "./html_icon.png",
     initials: "H",
     bgColor: "bg-html_opacity",
     description: "Standard web language",
   },
   {
     name: "Vue",
-    img: "/vuejs_icon.png",
+    img: "./vuejs_icon.png",
     initials: "V",
     bgColor: "bg-vue_opacity",
     description: "UI JavaScript library",
   },
   {
     name: "Javascript",
-    img: "/javascript_icon.png",
+    img: "./javascript_icon.png",
     initials: "J",
     bgColor: "bg-javascript_opacity",
     description: "Scripting language",
   },
   {
     name: "CSS",
-    img: "/css_icon.png",
+    img: "./css_icon.png",
     initials: "C",
     bgColor: "bg-css_opacity",
     description: "Standard styling language",
@@ -84,7 +84,7 @@ const webSkillsList = [
 const mobileSkillsList = [
   {
     name: "React Native",
-    img: "/react_icon.png",
+    img: "./react_icon.png",
     initials: "R",
     bgColor: "bg-react_opacity",
     description: "Multi-OS development",
@@ -150,7 +150,7 @@ export const Skills = () => {
         >
           <div className="opacity-30 -ml-6 absolute w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-black to-white/0" />
           <div className="z-10 bg-neutral-800 rounded-lg flex gap-x-4 w-10 h-10">
-            <img className="h-6 w-6 m-auto" src="/figma_icon.svg" />
+            <img className="h-6 w-6 m-auto" src="./figma_icon.svg" />
           </div>
           <div className="z-10 min-w-0 flex-1">
             <p className="font-medium">Figma</p>

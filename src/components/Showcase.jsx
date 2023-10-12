@@ -3,13 +3,13 @@ import { Dialog, Transition } from "@headlessui/react";
 
 const designSystem = [
   {
-    img: "/app.png",
+    img: "./app.png",
   },
   {
-    img: "/design_system.svg",
+    img: "./design_system.svg",
   },
   {
-    img: "/phone.svg",
+    img: "./phone.svg",
   },
 ];
 

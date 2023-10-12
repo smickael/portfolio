@@ -26,7 +26,7 @@ export const HeroSection = () => {
       </div>
       <div className="w-full md:w-1/2">
         <img
-          src="/hero_test.svg"
+          src="./hero_test.svg"
           alt="Image de la Hero Section"
           className="w-full"
         />

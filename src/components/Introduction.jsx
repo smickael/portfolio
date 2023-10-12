@@ -91,8 +91,8 @@ export const Introduction = () => {
             <img
               src={
                 theme !== Themes.JUMY
-                  ? "/logo_icon.svg"
-                  : "/blackLogo_icon.svg"
+                  ? "./logo_icon.svg"
+                  : "./blackLogo_icon.svg"
               }
               className={clsx(
                 "rounded-full",
@@ -352,7 +352,7 @@ export const Introduction = () => {
               className="hover:bg-zinc-700 bg-zinc-900 w-full flex items-center gap-x-4 p-2 rounded-3xl cursor-pointer text-neutral-950"
               onClick={() => setTheme(theme)}
             >
-              <img src={`/${theme}_icon.svg`} className="w-16 h-16" />
+              <img src={`./${theme}_icon.svg`} className="w-16 h-16" />
               <span className="hidden md:flex text-neutral-50 font-medium text-lg mr-2">
                 {theme} theme
               </span>

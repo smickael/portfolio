@@ -3,7 +3,7 @@ import clsx from "clsx";
 const missionsList = [
   {
     name: "Wealthcome",
-    image: "/wealthcome.svg",
+    image: "./wealthcome.svg",
     location: "Bordeaux, France",
     languages: [
       { name: "React-Native", className: "bg-react" },
@@ -20,7 +20,7 @@ const missionsList = [
   },
   {
     name: "Roomchazer",
-    image: "/roomchazer.svg",
+    image: "./roomchazer.svg",
     location: "California, United States",
     languages: [{ name: "React-Native", className: "bg-react" }],
     website: "https://www.roomchazer.com/",
@@ -29,7 +29,7 @@ const missionsList = [
   },
   {
     name: "Jumy",
-    image: "/jumy.svg",
+    image: "./jumy.svg",
     location: "Dubai, United Arab Emirates",
     languages: [
       { name: "React.JS", className: "bg-react" },
